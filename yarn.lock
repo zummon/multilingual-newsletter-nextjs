@@ -8421,6 +8421,11 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
+uikit@^3.16.15:
+  version "3.16.15"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.16.15.tgz#47599dc1851bd803bc2a760da3a946d55a6dc290"
+  integrity sha512-uw0vn+h+isInT4Eq/CPxwQx5X0CDS2I9FQwgnxHyDDXOBEnnMEpCxiQWEvVgwkelJlMh/Qv+2ePyXVcb9Wx93A==
+
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.2.tgz#29032021057d5e6cdbd08c5129c226dff8ed6f9e"

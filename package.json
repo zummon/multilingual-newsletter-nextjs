@@ -3,7 +3,8 @@
   "main": "src/index.js",
   "dependencies": {
     "react": "^18.0.2",
-    "react-dom": "^18.0.2"
+    "react-dom": "^18.0.2",
+    "uikit": "^3.16.15"
   },
   "devDependencies": {
     "react-scripts": "^5.0.0"

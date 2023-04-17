@@ -1,6 +1,4 @@
-The cdn links should be using `npm` or `yarn`, but current will work
 
----
 ### Dev tools
 
 [Google Fonts](https://fonts.google.com/)
