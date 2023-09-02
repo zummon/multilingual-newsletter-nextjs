@@ -98,7 +98,7 @@ export default function App() {
 				<div className="p-2 md:p-3 lg:p-4">
 					<p className="first-letter:text-7xl first-letter:mr-2 first-letter:float-left text-justify">{language["other_text_1"]}</p>
 				</div>
-				<div>
+				<div className="p-2 md:p-3 lg:p-4">
 					<p className="first-letter:text-7xl first-letter:mr-2 first-letter:float-left text-justify">{language["other_text_2"]}</p>
 				</div>	
 				<div className="sm:col-span-2 md:col-span-2 p-2 md:p-3 lg:p-4">
