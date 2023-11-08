@@ -1,3 +1,5 @@
+'use client'
+
 import './globals.css'
 // - [lipsum](https://www.lipsum.com/)
 // - [typographic](https://generator.lorem-ipsum.info/)
@@ -10,7 +12,7 @@ export default function ({ children, }) {
 	const pathname = usePathname()
 	
 	const lang = pathname.slice(1)
-	const language = languages[lang];
+	const language = languages[lang] || {}
 
   return (
     <html>
@@ -42,7 +44,7 @@ export default function ({ children, }) {
 								className="border p-2"
 								value={language.locale}
 								onChange={function (event) {
-									router.push(event.target.value)
+									router.push(`/${event.target.value}`)
 								}}
 							>
 								{Object.entries(languages).map(function ([locale, item], index) {
@@ -74,11 +76,11 @@ export default function ({ children, }) {
 									width="44"
 									height="44"
 									viewBox="0 0 24 24"
-									stroke-width="1.5"
+									strokeWidth="1.5"
 									stroke="currentColor"
 									fill="none"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 									<path d="M5 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
