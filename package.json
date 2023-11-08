@@ -1,19 +1,18 @@
 {
 	"license": "MIT",
 	"dependencies": {
+		"next": "13.5.1",
 		"react": "^18.0.2",
 		"react-dom": "^18.0.2"
 	},
 	"devDependencies": {
-		"@vitejs/plugin-react": "^4.0.4",
 		"autoprefixer": "^10.4.16",
 		"postcss": "^8.4.30",
-		"tailwindcss": "^3.3.3",
-		"vite": "^4.4.9"
+		"tailwindcss": "^3.3.3"
 	},
 	"scripts": {
-		"start": "vite",
-		"build": "vite build",
-		"preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
 	}
 }

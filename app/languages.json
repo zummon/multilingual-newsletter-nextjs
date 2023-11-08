@@ -1,7 +1,7 @@
-[
-	{
-		"locale": "en",
+{
+	"": {
 		"name": "English",
+		"fontFamilySrc": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap",
 		"fontFamily": "'Akaya Telivigala', cursive",
 		"title": "Multilingual Newsletter",
 		"head_line": "Newsletter",
@@ -12,9 +12,9 @@
 		"other_text_3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 		"made_by": "Made by zummon"
 	},
-	{
-		"locale": "zh",
+	"zh": {
 		"name": "中国人",
+		"fontFamilySrc": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap",
 		"fontFamily": "'Noto Serif SC', serif",
 		"title": "多语种通讯",
 		"head_line": "通讯",
@@ -25,9 +25,9 @@
 		"other_text_3": "Lorem Ipsum，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用。它不仅延续了五个世纪，还通过了电子排版的挑战，其雏形却依然保存至今。在1960年代，”Leatraset”公司发布了印刷着Lorem Ipsum段落的纸张，从而广泛普及了它的使用。最近，计算机桌面出版软件”Aldus PageMaker”也通过同样的方式使Lorem Ipsum落入大众的视野。",
 		"made_by": "由 ZUMMON 制造"
 	},
-	{
-		"locale": "th",
+	"th": {
 		"name": "ไทย",
+		"fontFamilySrc": "https://fonts.googleapis.com/css2?family=Sriracha&display=swap",
 		"fontFamily": "'Sriracha', cursive",
 		"title": "หนังสือพิมพ์หลายภาษา",
 		"translate_by": "(Teerapat Anantarattanachai)",
@@ -38,4 +38,4 @@
 		"other_text_3": "Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย",
 		"made_by": "สร้างโดย zummon"
 	}
-]
+}
